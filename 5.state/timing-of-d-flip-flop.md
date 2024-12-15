@@ -19,12 +19,13 @@
     after a short delay of "clk-to-q".
 
 ## Recap of timing terms
-- Clock (CLK): steady square wave that synchronizes system
-- Setup Time: when the input must be stable *before* the rising edge of the CLK
-- Hold Time: when the input must be stable *after* the rising edge of the CLK
-- CLK-to-Q Delay: how long it takes the output to change, measured from the
-  rising edge of the CLK
-- Flip-flop: one bit of state that samples every rising edge of the CLK
-  (positive edge-triggered)
-- Register: several bits of state that samples on rising edge of CLK or on LOAD
+
+-   **Clock (CLK)**: steady square wave that synchronizes system
+-   **Setup Time**: when the input must be stable *before* the rising edge of the CLK
+-   **Hold Time**: when the input must be stable *after* the rising edge of the CLK
+-   **CLK-to-Q Delay**: how long it takes the output to change, measured from the
+    rising edge of the CLK
+-   **Flip-flop**: one bit of state that samples every rising edge of the CLK
+    (positive edge-triggered)
+-   **Register**: several bits of state that samples on rising edge of CLK or on LOAD
   (positive edge-triggered)
